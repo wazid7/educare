@@ -5,3 +5,36 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #fff;
 }
+
+
+
+/* Hero Style */
+.single-carousel {
+    height: 580px;
+}
+
+.carousel-text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    content: "";
+    transform: translateY(-50%);
+}
+
+.carousel-text h2 {
+    font-size: 65px;
+    color: #fff;
+    line-height: 85px;
+    font-weight: 600;
+    padding: 0 125px;
+}
+
+.carousel-text p {
+    font-size: 18px;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 125px;
+}
