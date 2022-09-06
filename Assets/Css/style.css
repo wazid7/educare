@@ -9,6 +9,10 @@ body {
 
 
 /* Hero Style */
+.mt-100 {
+    margin-top: 100px;
+}
+
 .single-carousel {
     height: 580px;
 }
@@ -37,4 +41,17 @@ body {
     color: #fff;
     line-height: 30px;
     padding: 0 125px;
+}
+
+.institute-wrapper {
+    background-color: #F4FAFD;
+}
+
+.ins-img {
+    height: 550px;
+    width: 100%;
+}
+
+.item {
+    margin-right: 50px;
 }
