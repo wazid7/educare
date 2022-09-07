@@ -6,8 +6,6 @@ body {
     background-color: #fff;
 }
 
-
-
 /* Hero Style */
 .mt-100 {
     margin-top: 100px;
@@ -54,4 +52,24 @@ body {
 
 .item {
     margin-right: 50px;
+}
+
+.brand-wrapper li {
+    list-style: none;
+}
+
+.footer-icon li {
+    list-style: none;
+    width: 35px;
+    height: 35px;
+    background: dimgrey;
+    display: inline-block;
+    margin: 0 6px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+
+.footer-icon li a {
+    color: #fff;
+    font-size: 20px;
 }
