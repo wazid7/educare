@@ -13,7 +13,7 @@ body {
 
 .hero-area .single-carousel {
     background-position: center;
-    min-height: 100vh;
+    min-height: 90vh;
     position: relative;
     z-index: 1;
     background-size: cover;
@@ -26,7 +26,7 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(29, 29, 29, 0.7);
     z-index: -1;
 }
 
@@ -69,6 +69,32 @@ body {
     margin-right: 50px;
 }
 
+/* Testimunials area style */
+.ratings li {
+    list-style: none;
+}
+
+.ratings li i {
+    color: gold;
+}
+
+.test-quote img {
+    height: 45px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.carousel-triger {
+    border-radius: 22px;
+    position: absolute;
+    right: -18px;
+}
+
+.carousel-triger.triger-left {
+    position: absolute;
+    right: 148px;
+}
+
 .brand-wrapper li {
     list-style: none;
 }
@@ -100,6 +126,11 @@ body {
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
+    .hero-area .single-carousel {
+        min-height: 90vh;
+
+    }
+
     .carousel-text h2 {
         font-size: 36px;
         color: #fff;
@@ -126,6 +157,8 @@ body {
     .item h1 {
         font-size: 20px;
     }
+
+
 }
 
 
